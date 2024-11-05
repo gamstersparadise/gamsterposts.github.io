@@ -6,14 +6,6 @@
     <description>Recent content on Gamster posts</description>
     <generator>Hugo -- 0.137.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Nov 2024 12:45:15 +0600</lastBuildDate>
     <atom:link href="https://gamsterposts.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>https://gamsterposts.github.io/posts/helloworld/</link>
-      <pubDate>Tue, 05 Nov 2024 12:45:15 +0600</pubDate>
-      <guid>https://gamsterposts.github.io/posts/helloworld/</guid>
-      <description>&lt;p&gt;Hello world!&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
