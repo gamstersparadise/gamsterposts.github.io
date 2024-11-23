@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en-us"
+  dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+
+<link rel="icon" type="image/ico" href="https://gamstersparadise.github.io/gamsterposts.github.io//favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://gamstersparadise.github.io/gamsterposts.github.io//favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://gamstersparadise.github.io/gamsterposts.github.io//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://gamstersparadise.github.io/gamsterposts.github.io//android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://gamstersparadise.github.io/gamsterposts.github.io//apple-touch-icon.png">
+
+<meta name="description" content=""/>
+
+<title>
+    
+    Управление разработкой системы тестирования | 
+    
+</title>
+
+<link rel="canonical" href="https://gamstersparadise.github.io/gamsterposts.github.io/posts/lab-3/"/>
+
+<meta property="og:url" content="https://gamstersparadise.github.io/gamsterposts.github.io/posts/lab-3/">
+  <meta property="og:title" content="Управление разработкой системы тестирования">
+  <meta property="og:description" content="Планируется разработка приложения для проведения тестирований. Должен быть реализован функционал проведения тестирований, сбора работ тестируемых, проверки ответов (экспертом или автоматически) и представления результатов.
+Время разработки: 6 месяцев
+Выбранные технологии: Kotlin &#43; Spring Boot, Vue.js, PostgreSQL, Redis, Keycloak
+Roadmap проекта Этап 1: Анализ и проектирование (1 месяц) Анализ интерфейса участников и функционала админки. Проработка технических требований для очного и дистанционного тестирования. Ознакомление с выбранными технологиями. Построение диаграммы классов, диаграммы потоков данных Проектирование базы данных Проектирование API Приоритизация задач Этап 2: Разработка минимального функционала (MVP, 2 месяца) Настройка проекта Реализация базового функционала (добавление тестирования дистанционного формата и автоматическая проверка) Написание тестов Этап 3: Тестирование и доработка (1 месяц) Работа с обратной связью от научного руководителя Настройка тестов для фронтенда Этап 4: Реализация проверки работ (1 месяц) Добавление более специфических функций (сбор работ оффлайн тестирования (загрузка сканов), ручная проверка экспертом) Вывод статистики по участникам, тестам, группам Экспорт данных в Excel/PDF Этап 5: Финализация и развертывание (1 месяц) Настройка кэширования Деплой Написание текста работы Инструменты для контроля и управления проектом Трекер задач: Trello">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-11-20T08:05:09+06:00">
+    <meta property="article:modified_time" content="2024-11-20T08:05:09+06:00">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/gamsterposts.github.io/assets/combined.min.decec6a29a692281ac47ea49000166c073bbc0497fa8b0f151782a01a2917800.css" media="all">
+
+
+
+
+
+
+
+
+
+  </head>
+
+  
+
+  
+
+  <body class="auto">
+
+    <div class="content">
+      <header>
+        
+
+<div class="header">
+
+    
+
+    <h1 class="header-title">
+        <a href="https://gamstersparadise.github.io/gamsterposts.github.io/"></a>
+    </h1>
+
+    <div class="flex">
+        
+
+        
+    </div>
+
+    
+
+</div>
+
+      </header>
+
+      <main class="main">
+        
+
+
+
+
+
+
+
+<div >
+
+  <div class="single-intro-container">
+
+    
+
+    <h1 class="single-title">Управление разработкой системы тестирования</h1>
+    
+
+    
+
+    <p class="single-readtime">
+      
+      
+      
+      <time datetime="2024-11-20T08:05:09&#43;06:00">November 20, 2024</time>
+      
+
+      
+    </p>
+
+  </div>
+
+  
+
+  
+
+  
+
+  
+
+  <div class="single-content">
+    <p>Планируется разработка приложения для проведения тестирований. Должен быть реализован функционал проведения тестирований, сбора работ тестируемых, проверки ответов (экспертом или автоматически) и представления результатов.</p>
+<p>Время разработки: 6 месяцев</p>
+<p>Выбранные технологии: Kotlin + Spring Boot, Vue.js, PostgreSQL, Redis, Keycloak</p>
+<h2 id="roadmap-проекта">Roadmap проекта</h2>
+<h3 id="этап-1-анализ-и-проектирование-1-месяц">Этап 1: Анализ и проектирование (1 месяц)</h3>
+<ul>
+<li>Анализ интерфейса участников и функционала админки.</li>
+<li>Проработка технических требований для очного и дистанционного тестирования.</li>
+<li>Ознакомление с выбранными технологиями.</li>
+<li>Построение диаграммы классов, диаграммы потоков данных</li>
+<li>Проектирование базы данных</li>
+<li>Проектирование API</li>
+<li>Приоритизация задач</li>
+</ul>
+<h3 id="этап-2-разработка-минимального-функционала-mvp-2-месяца">Этап 2: Разработка минимального функционала (MVP, 2 месяца)</h3>
+<ul>
+<li>Настройка проекта</li>
+<li>Реализация базового функционала (добавление тестирования дистанционного формата и автоматическая проверка)</li>
+<li>Написание тестов</li>
+</ul>
+<h3 id="этап-3-тестирование-и-доработка-1-месяц">Этап 3: Тестирование и доработка (1 месяц)</h3>
+<ul>
+<li>Работа с обратной связью от научного руководителя</li>
+<li>Настройка тестов для фронтенда</li>
+</ul>
+<h3 id="этап-4-реализация-проверки-работ-1-месяц">Этап 4: Реализация проверки работ (1 месяц)</h3>
+<ul>
+<li>Добавление более специфических функций (сбор работ оффлайн тестирования (загрузка сканов), ручная проверка экспертом)</li>
+<li>Вывод статистики по участникам, тестам, группам</li>
+<li>Экспорт данных в Excel/PDF</li>
+</ul>
+<h3 id="этап-5-финализация-и-развертывание-1-месяц">Этап 5: Финализация и развертывание (1 месяц)</h3>
+<ul>
+<li>Настройка кэширования</li>
+<li>Деплой</li>
+<li>Написание текста работы</li>
+</ul>
+<h2 id="инструменты-для-контроля-и-управления-проектом">Инструменты для контроля и управления проектом</h2>
+<p>Трекер задач: Trello</p>
+<p>Методология: Agile (Scrum)
+2-недельные спринты, регулярные созвоны с научным руководителем</p>
+
+    
+  </div>
+
+  
+
+
+  
+
+  
+  
+
+<div class="single-pagination">
+    <hr />
+
+    <div class="flex">
+
+        <div class="single-pagination-prev">
+            
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/gamsterposts.github.io/posts/lab-1/">
+                        Cистемы управления корпоративным контентом
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="single-pagination-next">
+            
+        </div>
+
+    </div>
+
+    <hr />
+</div>
+
+
+
+  
+
+  
+
+  
+  <div class="back-to-top">
+    <a href="#top">
+      back to top
+    </a>
+  </div>
+  
+
+</div>
+
+
+      </main>
+    </div>
+
+    <footer>
+      
+
+    
+    <p>Powered by
+        <a href="https://gohugo.io/">Hugo</a>
+        and
+        <a href="https://github.com/tomfran/typo">tomfran/typo</a>
+    </p>
+    
+    
+    
+
+
+
+    </footer>
+    
+  </body>
+
+  <script>
+
+  function isAuto() {
+    return document.body.classList.contains("auto");
+  }
+
+  function setTheme() {
+    if (!isAuto()) {
+      return
+    }
+
+    document.body.classList.remove("auto");
+    let cls = "light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      cls = "dark";
+    }
+
+    document.body.classList.add(cls);
+  }
+
+  function invertBody() {
+    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
+  }
+
+  if (isAuto()) {
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(invertBody);
+  }
+
+  setTheme();
+
+</script>
+
+</html>
